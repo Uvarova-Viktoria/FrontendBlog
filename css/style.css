@@ -1,3 +1,18 @@
+body{
+	/*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.center {
+	text-align: center;
+}
+.wrapper {
+	width: 100%;
+	max-width: 1170px;
+	
+	margin: 0 auto;
+}
 .nav-link {
 	color: #444444;
 }
@@ -7,13 +22,62 @@
 .info-item,
 .info-link {
 	color: rgba(255,255,255,0.3);
+	font-size: 14px;
 }
 .title p {
 	color: #30a3f0;
+	font-size: 18px;
 }
 .title h1 {
-	color: #fff;
+	/*color: #fff;*/
+	text-transform: uppercase;
+	font-size: 45px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800; 
+	max-width: 720px;
+	margin: 0 auto;
+}
+.line{
+	/*element горизонтальная линия*/
+	width: 1px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: #30a3f0;
+}
+.line-top {
+	margin-bottom: 29px;
+}
+.line-bottom {
+	margin-top: 32px;
 }
 .btn {
 	color: #30a3f0; 
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 20px 42px;
+	text-decoration: none;
+	border: 1px solid #30a3f0;
+	border-radius: 5px;
+}
+.box h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 27px;
+}
+.title-h2 {
+	font-size: 30px;
+	font-weight: 800;
+
+}
+.title-h2 span {
+	font-size: 16px;
+	color: #30a3f0; 
+}
+.decription {
+	color: #707070;
+}
+.list-decription {
+	color: #222222;
 }
